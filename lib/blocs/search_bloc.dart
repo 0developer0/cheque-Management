@@ -1,12 +1,10 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:meta/meta.dart';
-import 'package:mobile_bank_checkque_example/data/dataproviders/cheque_api.dart';
-import 'package:mobile_bank_checkque_example/data/models/cheque.dart';
-import 'package:mobile_bank_checkque_example/data/repositories/cheque_repository.dart';
-import 'package:mobile_bank_checkque_example/main.dart';
+import 'package:mobile_bank_checkque/data/dataproviders/cheque_api.dart';
+import 'package:mobile_bank_checkque/data/models/cheque.dart';
+import 'package:mobile_bank_checkque/data/repositories/cheque_repository.dart';
+import 'package:mobile_bank_checkque/main.dart';
 
 part 'search_event.dart';
 part 'search_state.dart';
